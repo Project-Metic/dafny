@@ -32,7 +32,7 @@ defaults:
 
 jobs:
   populate-matrix-dimensions:
-    runs-on: ubuntu-latest
+    runs-on: magnon-enterprise-runners
     steps:
       - name: Populate iterations (normal mode)
         id: populate-iterations-normal
